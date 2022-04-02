@@ -1,0 +1,7 @@
+SOURCE_URL=https://github.com/phpback/phpback/archive/refs/tags/v1.3.2.tar.gz
+SOURCE_SUM=51dff0437ab754c7dd58d689ed0caf930ff8ab554d7c335df28efa2ec933e74f
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=
+SOURCE_EXTRACT=true
