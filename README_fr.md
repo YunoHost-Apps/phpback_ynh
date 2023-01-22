@@ -5,31 +5,33 @@ It shall NOT be edited by hand.
 
 # PHPBack pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/phpback.svg)](https://dash.yunohost.org/appci/app/phpback) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/phpback.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/phpback.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/phpback.svg)](https://dash.yunohost.org/appci/app/phpback) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/phpback.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/phpback.maintain.svg)
 [![Installer PHPBack avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpback)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer PHPBack rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer PHPBack rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 PHPBack is an open source feedback system you can use for your website. It gives your customers a way to communicate their ideas to improve your products. User feedback has proved to be really effective even if you have a community project or a commercial project. 
 
-**Version incluse :** 1.3.2~ynh1
-
+**Version incluse :** 1.3.2~ynh1
 
 **Démo :** https://www.phpback.org/demo/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de PHPBack](./doc/screenshots/slider-item-1.png)
+![Capture d’écran de PHPBack](./doc/screenshots/slider-item-1.png)
 
+## Avertissements / informations importantes
+
+Upload this folder to your web server, go to `yourwebsite.com/feedback/` (or folder name) and fill the form. 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://www.phpback.org/>
-* Dépôt de code officiel de l'app : <https://github.com/phpback/phpback>
+* Site officiel de l’app : <https://www.phpback.org/>
+* Dépôt de code officiel de l’app : <https://github.com/phpback/phpback>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_phpback>
 * Signaler un bug : <https://github.com/YunoHost-Apps/phpback_ynh/issues>
 
@@ -45,4 +47,4 @@ ou
 sudo yunohost app upgrade phpback -u https://github.com/YunoHost-Apps/phpback_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
