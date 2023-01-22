@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # PHPBack for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/phpback.svg)](https://dash.yunohost.org/appci/app/phpback) ![Working status](https://ci-apps.yunohost.org/ci/badges/phpback.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/phpback.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/phpback.svg)](https://dash.yunohost.org/appci/app/phpback) ![Working status](https://ci-apps.yunohost.org/ci/badges/phpback.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/phpback.maintain.svg)
 [![Install PHPBack with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpback)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -19,13 +19,15 @@ PHPBack is an open source feedback system you can use for your website. It gives
 
 **Shipped version:** 1.3.2~ynh1
 
-
 **Demo:** https://www.phpback.org/demo/
 
 ## Screenshots
 
 ![Screenshot of PHPBack](./doc/screenshots/slider-item-1.png)
 
+## Disclaimers / important information
+
+Upload this folder to your web server, go to `yourwebsite.com/feedback/` (or folder name) and fill the form. 
 ## Documentation and resources
 
 * Official app website: <https://www.phpback.org/>
