@@ -25,7 +25,7 @@ ynh_abort_if_errors
 #=================================================
 
 domain=$YNH_APP_ARG_DOMAIN
-path_url=$YNH_APP_ARG_PATH
+path_url="/"
 is_public=$YNH_APP_ARG_IS_PUBLIC
 
 app=$YNH_APP_INSTANCE_NAME
@@ -109,10 +109,10 @@ ynh_add_nginx_config
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-#ynh_add_config --template="../conf/database.php" --destination="$final_path/application/config/database.php"
+ynh_add_config --template="../conf/database.php" --destination="$final_path/application/config/database.php"
 
-#chmod 777 "$final_path/application/config/database.php"
-#chown $app:$app "$final_path/application/config/database.php"
+chmod 775 "$final_path/application/config/database.php"
+chown $app:$app "$final_path/application/config/database.php"
 
 #=================================================
 # SETUP SSOWAT
