@@ -89,14 +89,6 @@ chown -R $app:www-data "$final_path"
 chmod -R 755 "$final_path/application/config"
 
 #=================================================
-# NGINX CONFIGURATION
-#=================================================
-ynh_script_progression --message="Configuring NGINX web server..." --weight=1
-
-# Create a dedicated NGINX config
-ynh_add_nginx_config
-
-#=================================================
 # PHP-FPM CONFIGURATION
 #=================================================
 ynh_script_progression --message="Configuring PHP-FPM..." --weight=1
@@ -105,13 +97,21 @@ ynh_script_progression --message="Configuring PHP-FPM..." --weight=1
 ynh_add_fpm_config
 
 #=================================================
+# NGINX CONFIGURATION
+#=================================================
+ynh_script_progression --message="Configuring NGINX web server..." --weight=1
+
+# Create a dedicated NGINX config
+ynh_add_nginx_config
+
+#=================================================
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
 ynh_add_config --template="../conf/database.php" --destination="$final_path/application/config/database.php"
 
-chmod 755 "$final_path/application/config/database.php"
+chmod 775 "$final_path/application/config/database.php"
 chown $app:$app "$final_path/application/config/database.php"
 
 #=================================================

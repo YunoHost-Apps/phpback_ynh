@@ -16,11 +16,11 @@
     },
     "license": "AGPL-3.0-only",
     "maintainer": {
-        "name": "",
+        "name": "eric_G",
         "email": ""
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
@@ -37,8 +37,8 @@
             {
                 "name": "path",
                 "type": "path",
-                "example": "/phpback",
-                "default": "/phpback"
+                "example": "/feedback",
+                "default": "/feedback"
             },
             {
                 "name": "is_public",
