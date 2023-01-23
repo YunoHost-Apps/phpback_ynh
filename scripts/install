@@ -111,7 +111,7 @@ ynh_script_progression --message="Adding a configuration file..." --weight=1
 
 ynh_add_config --template="../conf/database.php" --destination="$final_path/application/config/database.php"
 
-chmod 755 "$final_path/application/config/database.php"
+chmod 777 "$final_path/application/config/database.php"
 chown $app:$app "$final_path/application/config/database.php"
 
 #=================================================
