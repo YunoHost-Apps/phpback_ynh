@@ -4,9 +4,9 @@
 # COMMON VARIABLES
 #=================================================
 
-YNH_PHP_VERSION="7.4"
+#REMOVEME? YNH_PHP_VERSION="7.4"
 
-pkg_dependencies="php${YNH_PHP_VERSION}-mysql"
+#REMOVEME? pkg_dependencies="php${YNH_PHP_VERSION}-mysql"
 
 #=================================================
 # PERSONAL HELPERS
