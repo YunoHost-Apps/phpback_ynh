@@ -26,9 +26,6 @@ PHPBack is an open source feedback system you can use for your website. It gives
 
 ![Capture d’écran de PHPBack](./doc/screenshots/slider-item-1.png)
 
-## Avertissements / informations importantes
-
-Upload this folder to your web server, go to `yourwebsite.com/feedback/` (or folder name) and fill the form. 
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://www.phpback.org/>
