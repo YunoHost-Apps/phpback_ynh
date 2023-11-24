@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # PHPBack for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/phpback.svg)](https://dash.yunohost.org/appci/app/phpback) ![Working status](https://ci-apps.yunohost.org/ci/badges/phpback.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/phpback.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/phpback.svg)](https://dash.yunohost.org/appci/app/phpback) ![Working status](https://ci-apps.yunohost.org/ci/badges/phpback.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/phpback.maintain.svg)
+
 [![Install PHPBack with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpback)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -19,7 +20,6 @@ PHPBack is an open source feedback system you can use for your website. It gives
 
 **Shipped version:** 1.3.2~ynh1
 
-
 **Demo:** https://www.phpback.org/demo/
 
 ## Screenshots
@@ -30,7 +30,7 @@ PHPBack is an open source feedback system you can use for your website. It gives
 
 * Official app website: <https://www.phpback.org/>
 * Upstream app code repository: <https://github.com/phpback/phpback>
-* YunoHost documentation for this app: <https://yunohost.org/app_phpback>
+* YunoHost Store: <https://apps.yunohost.org/app/phpback>
 * Report a bug: <https://github.com/YunoHost-Apps/phpback_ynh/issues>
 
 ## Developer info
