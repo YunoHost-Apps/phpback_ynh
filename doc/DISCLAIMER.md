@@ -1,1 +1,0 @@
-Upload this folder to your web server, go to `yourwebsite.com/feedback/` (or folder name) and fill the form. 
