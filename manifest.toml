@@ -44,7 +44,7 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/phpback/phpback/archive/refs/tags/v1.3.2.tar.gz"
         sha256 = "51dff0437ab754c7dd58d689ed0caf930ff8ab554d7c335df28efa2ec933e74f"
-
+        autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
 
