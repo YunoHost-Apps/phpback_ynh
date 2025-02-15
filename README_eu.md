@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # PHPBack YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/phpback.svg)](https://dash.yunohost.org/appci/app/phpback) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/phpback.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/phpback.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/phpback)](https://ci-apps.yunohost.org/ci/apps/phpback/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/phpback)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/phpback)
 
 [![Instalatu PHPBack YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpback)
 

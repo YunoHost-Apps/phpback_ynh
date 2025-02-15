@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # PHPBack para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/phpback.svg)](https://dash.yunohost.org/appci/app/phpback) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/phpback.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/phpback.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/phpback)](https://ci-apps.yunohost.org/ci/apps/phpback/)
+![Estado funcional](https://apps.yunohost.org/badge/state/phpback)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/phpback)
 
 [![Instalar PHPBack con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpback)
 
@@ -35,7 +37,7 @@ PHPBack is an open source feedback system you can use for your website. It gives
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/phpback_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/phpback_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 

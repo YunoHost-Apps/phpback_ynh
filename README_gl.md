@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # PHPBack para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/phpback.svg)](https://dash.yunohost.org/appci/app/phpback) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/phpback.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/phpback.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/phpback)](https://ci-apps.yunohost.org/ci/apps/phpback/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/phpback)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/phpback)
 
 [![Instalar PHPBack con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phpback)
 
